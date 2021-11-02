@@ -57,7 +57,7 @@ public class Main
         {
             for (int j = 0; j < height; j++)
             {
-                System.out.print(mat[i][j] + " ");
+                System.out.print(mat[i][j] + (mat[i][j] >= 10 ? " " : "  "));
             }
             System.out.println("");
         }
