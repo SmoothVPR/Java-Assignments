@@ -75,7 +75,7 @@ public class Game
 
     public void defeat()
     {
-        System.out.println("\nYou lost!");
+        System.out.println("\nSorry, You lost!");
         System.out.print("The number was: ");
         System.out.println(targetValue);
     }
