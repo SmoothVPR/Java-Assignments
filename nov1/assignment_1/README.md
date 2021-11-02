@@ -27,3 +27,9 @@ Write a Java program that prints out the following patterns using loops:
     ***
      *
 ```
+
+### Build & Run
+```
+make     # requires java 8+
+./run.sh # java Main
+```

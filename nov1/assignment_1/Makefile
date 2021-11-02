@@ -1,7 +1,6 @@
-PROJECT = assn_2
+PROJECT = assignment_1
 
 JC      = javac
-JFLAGS  =
 
 SRC     = .
 OBJ     = .
@@ -11,7 +10,7 @@ OBJECTS = $(patsubst %.java, %.class, $(SOURCES))
 all: $(OBJECTS)
 
 $(OBJECTS): $(SOURCES)
-	$(JC) $(JFLAGS) $(SOURCES)
+	$(JC) $(SOURCES)
 
 clean:
 	rm -f $(OBJECTS)
