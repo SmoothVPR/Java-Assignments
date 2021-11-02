@@ -1,12 +1,14 @@
 package com.ss;
 
-public class Square extends Shape
+public class Square implements Shape
 {
     private double width;
 
     public Square(double _width)
     {
         this.width = _width;
+
+        System.out.println("Square created.");
     }
 
     public double calculateArea()

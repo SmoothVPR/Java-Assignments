@@ -1,12 +1,7 @@
 package com.ss;
 
-abstract class Shape
+interface Shape
 {
-    public Shape()
-    {
-        System.out.println("Shape created");
-    }
-
-    abstract double calculateArea();
-    abstract void display();
+    public double calculateArea();
+    public void display();
 }

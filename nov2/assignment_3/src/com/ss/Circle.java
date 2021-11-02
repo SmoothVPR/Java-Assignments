@@ -2,7 +2,7 @@ package com.ss;
 
 import static java.lang.Math.PI;
 
-public class Circle extends Shape
+public class Circle implements Shape
 {
     private double radius;
 
@@ -10,6 +10,8 @@ public class Circle extends Shape
     public Circle(double _radius)
     {
         this.radius = _radius;
+
+        System.out.println("Circle created.");
     }
 
     public double calculateArea()

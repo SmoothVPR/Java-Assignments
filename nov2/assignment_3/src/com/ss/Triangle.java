@@ -1,6 +1,6 @@
 package com.ss;
 
-public class Triangle extends Shape
+public class Triangle implements Shape
 {
     private double base;
     private double height;
@@ -10,6 +10,8 @@ public class Triangle extends Shape
     {
         this.base   = _base;
         this.height = _height;
+
+        System.out.println("Triangle created.");
     }
 
     public double calculateArea()
