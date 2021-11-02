@@ -1,0 +1,7 @@
+# Compiled files
+*.class
+*.exe
+*.o
+
+# Misc
+compile_flags.txt
