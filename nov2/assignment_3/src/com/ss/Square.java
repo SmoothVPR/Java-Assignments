@@ -18,6 +18,6 @@ public class Square implements Shape
 
     public void display()
     {
-        System.out.println("Square with area: " + calculateArea() + "\n");
+        System.out.println("Square -> width: " + this.width + ", area: " + calculateArea() + "\n");
     }
 }

@@ -21,6 +21,6 @@ public class Triangle implements Shape
 
     public void display()
     {
-        System.out.println("Triangle with area: " + calculateArea() + "\n");
+        System.out.println("Triangle -> base: " + this.base + ", height: " + this.height + ", area: " + calculateArea() + "\n");
     }
 }

@@ -21,6 +21,6 @@ public class Circle implements Shape
 
     public void display()
     {
-        System.out.println("Circle with area: " + calculateArea() + "\n");
+        System.out.println("Circle -> radius: " + this.radius + ", area: " + calculateArea() + "\n");
     }
 }
