@@ -1,6 +1,4 @@
-package ss;
-
-import ss.Game;
+package com.ss;
 
 public class Main
 {

@@ -2,7 +2,7 @@
 
 if [ -f ./Main.class ]
 then
-    java Main
+    java Main $@
 else
     echo "run 'make' first"
 fi

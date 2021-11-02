@@ -1,4 +1,4 @@
-PROJECT  = assignment_2
+PROJECT  = assignment_3
 
 JC       = javac
 JAR      = jar

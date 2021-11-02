@@ -1,4 +1,4 @@
-package ss;
+package com.ss;
 
 import java.util.Scanner;
 import java.lang.Math;
