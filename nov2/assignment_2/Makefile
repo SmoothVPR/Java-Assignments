@@ -5,7 +5,7 @@ JC      = javac
 SRC     = .
 OBJ     = .
 SOURCES = $(wildcard *.java)
-OBJECTS = $(wildcard *.class)
+OBJECTS = $(patsubst %.java, %.class, $(SOURCES))
 
 all: $(OBJECTS)
 
@@ -13,4 +13,4 @@ $(OBJECTS): $(SOURCES)
 	$(JC) $(SOURCES)
 
 clean:
-	rm -f $(OBJECTS)
+	rm -f *.class
