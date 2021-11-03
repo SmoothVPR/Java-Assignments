@@ -6,5 +6,5 @@ names (including in subdirectories) under a given directory.
 ### Build & run (Linux)
 ```
 make     # requires java jdk 8+
-./run.sh
+./run.sh path/to/search
 ```

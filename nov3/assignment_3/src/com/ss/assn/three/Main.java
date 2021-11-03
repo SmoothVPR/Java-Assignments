@@ -39,7 +39,7 @@ public class Main
         System.err.println("Usage: ./run_sh <path/to/text.txt> <character string>");
         System.err.println("");
         System.err.println("positional arguments:");
-        System.err.println("  path/to/text.txt, character string");
+        System.err.println("  path/to/text.txt, \"character string\"");
         System.err.println("");
         System.err.println("example:");
         System.err.println("  ./run_sh test.txt abcdefg");

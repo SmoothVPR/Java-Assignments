@@ -7,5 +7,5 @@ The character can be specified at the command line.
 ### Build & run (Linux)
 ```
 make     # requires java jdk 8+
-./run.sh
+./run.sh path/to/file.txt "character string"
 ```
