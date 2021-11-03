@@ -1,6 +1,8 @@
-# Assignment 2
+# Assignment 3
 
-Write a Java program that appends text to an existing file.
+Write a Java program that counts the number of times a  
+particular character, such as 'e', appears in a file.
+The character can be specified at the command line.
 
 ### Build & run (Linux)
 ```

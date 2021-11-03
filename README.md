@@ -8,3 +8,8 @@
 - <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov2/assignment_1">Assignment 1: Command Line Interface</a>
 - <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov2/assignment_2">Assignment 2: 2D Array Handler</a>
 - <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov2/assignment_3">Assignment 3: Shape Interface</a>
+
+### November 3, 2021
+- <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov3/assignment_1">Assignment 1: Directory Walker</a>
+- <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov3/assignment_2">Assignment 2: File Appending App</a>
+- <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov3/assignment_3">Assignment 3: Character counter</a>
