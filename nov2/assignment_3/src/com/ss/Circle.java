@@ -6,7 +6,6 @@ public class Circle implements Shape
 {
     private double radius;
 
-
     public Circle(double _radius)
     {
         this.radius = _radius;
