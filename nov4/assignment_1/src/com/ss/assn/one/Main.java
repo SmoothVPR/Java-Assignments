@@ -10,23 +10,20 @@ package com.ss.assn.one;
  *   then prints their hash code to stdout
 **/
 
+import java.lang.Thread;
+
 public class Main
 {
     public static void main(String[] args)
     {
         // Instantiating Singleton classes
-        Singleton a = Singleton.getInstance();
-        Singleton b = Singleton.getInstance();
-        Singleton c = Singleton.getInstance();
+        Singleton s1 = Singleton.getInstance();
+        Singleton s2 = Singleton.getInstance();
  
-        // Printing the hash code for each instance
-        System.out.println("Hashcode of a: " + a.hashCode());
-        System.out.println("Hashcode of b: " + b.hashCode());
-        System.out.println("Hashcode of c: " + c.hashCode());
- 
-        // Condition check
-        System.out.println("\nEach object points to " +
-                          ((a == b && c == b) ? "the same" : "a different") +
-                          " memory address on the heap.");
+        s1.run();
+        s2.run();
+
+        System.out.println("First thread hash code: "  + s1.hashCode());
+        System.out.println("Second thread hash code: " + s2.hashCode());
     }
 }

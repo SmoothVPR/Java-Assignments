@@ -1,6 +1,6 @@
 # Assignment 1
 
-- [ ] Implement a Singleton with double checked locking.
+- [x] Write a program to create a deadlock between two threads.
 
 ### Build & run (Linux)
 ```
