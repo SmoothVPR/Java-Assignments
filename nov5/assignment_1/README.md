@@ -1,12 +1,12 @@
-# Assignment 4
+# Assignment 1
 
-- [x] For this exercise you will add JUnit tests for the Line Class
-- [x] Create a file called LineTest.java
-- [x] Create tests for the getSlope, getDistance and parallelTo methods
-- [x] Because of rounding errors, it is bad practice to test double 
-      values for exact equality. To get around this, you can pass a 
-      small value (such as .0001) to assertEquals to be used as a 
-      delta
+### Basic lambdas (Sort string array)
+- [x] length (i.e., shortest to longest)
+- [x] reverse length (i.e., longest to shortest)
+- [x] alphabetically by the first character only
+- [x] Strings that contain “e” first, everything else second. For now, put the code directly in the lambda.
+- [x] Redo the previous problem, but use a static helper method so that your lambda looks like this:
+      Arrays.sort(words, (s1,s2) -> Utils.yourMethod(s1,s2))
 
 ### Make Tests & Run
 ```
