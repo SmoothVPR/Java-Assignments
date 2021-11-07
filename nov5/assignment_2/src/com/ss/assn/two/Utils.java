@@ -1,48 +1,13 @@
-package com.ss.assn.one;
+package com.ss.assn.two;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDate;
+import static java.time.temporal.ChronoField.DAY_OF_MONTH;
+import static java.time.temporal.ChronoField.DAY_OF_WEEK;
 
 public class Utils
 {
-    public static int sort(String a, String b)
+    public static boolean isSpooky(LocalDate dt)
     {
-        if ((a.indexOf('e') >= 0) && !(b.indexOf('e') >= 0))
-        {
-            return -1;
-        }
-        else if (!(a.indexOf('e') >= 0) && (b.indexOf('e') >= 0))
-        {
-            return 1;
-        }
-        else
-        {
-            return 0;
-        }
-    }
-
-    public static String intArrToString(List<Integer> arr)
-    {
-        if (arr.size() == 0) { return ""; } // handle empty arr
-
-        StringBuilder res = new StringBuilder("");
-        arr.forEach(x -> // for (Integer x : arr)
-        {
-            res.append((x % 2 == 0 ? 'e' : 'o') + x.toString() + ","); // even or odd ternary condition
-        });
-
-        return res.substring(0, res.length()-1); // removes last comma
-    }
-
-    public static List<String> parseSpecialStrFormat(List<String> arr)
-    {
-        List<String> res = new ArrayList<String>();
-        arr.stream()
-            .filter( a -> ((a.length() == 3) && (a.charAt(0) == 'a')) )
-            .map(am -> am)
-            .forEach(x -> res.add(x));
-
-        return res;
-
+        return ( (dt.get(DAY_OF_MONTH) == 13) && (dt.get(DAY_OF_WEEK) == 5) );
     }
 }
