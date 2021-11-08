@@ -22,10 +22,12 @@
 
 ### November 5, 2021
 - [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_1">Assignment 1: Lambdas and functional interfaces & streams</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_2">Assignment 2: Datetime API</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_3">Assignment 3: More Lambdas</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_4">Assignment 4: Functional Programming</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_5">Assignment 5: More Functional Programming</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_6">Assignment 6: Even More Functional Programming...</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_7">Assignment 7: Recursion</a>
-- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_8">Assignment 8: Fix Singleton</a>
+- [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/nov5/assignment_2">Assignment 2: Datetime API</a>
+
+### Week 1 (November 2021)
+- [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/week1/assignment_1">Assignment 1: More Lambdas</a>
+- [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/week1/assignment_2">Assignment 2: Functional Programming</a>
+- [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/week1/assignment_3">Assignment 3: More Functional Programming</a>
+- [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/week1/assignment_4">Assignment 4: Even More Functional Programming...</a>
+- [x] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/week1/assignment_5">Assignment 5: Recursion</a>
+- [ ] <a href="https://github.com/SmoothVPR/Java-Assignments/tree/main/week1/assignment_6">Assignment 6: Fix Singleton</a>
