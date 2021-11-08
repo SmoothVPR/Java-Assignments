@@ -1,8 +1,5 @@
 package com.ss.assn.one;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Utils
 {
     public static String PerformOperation(int op, int n) throws ArithmeticException

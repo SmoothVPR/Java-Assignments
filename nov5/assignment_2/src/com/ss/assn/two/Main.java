@@ -54,7 +54,7 @@ public class Main
         int yyyy = 0;
 
         System.out.print("Enter a year (int): ");
-		try
+	try
         {
             yyyy = Integer.parseInt(sc.nextLine());
         }
@@ -85,7 +85,7 @@ public class Main
         Month mm;
 
         System.out.print("Enter a month (name): ");
-		try
+	try
         {
             mm = Month.valueOf(sc.nextLine().toUpperCase());
         }
@@ -104,7 +104,7 @@ public class Main
         Month mm;
 
         System.out.print("Enter a month (name): ");
-		try
+	try
         {
             mm = Month.valueOf(sc.nextLine().toUpperCase());
         }

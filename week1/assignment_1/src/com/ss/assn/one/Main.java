@@ -12,24 +12,26 @@ package com.ss.assn.one;
  *
 **/
 
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.List;
 
 public class Main
 {
+    static Scanner s = new Scanner(System.in);
+
     public static void main(String[] args)
     {
         System.out.println("Number of inputs: ");
-        Scanner s = new Scanner(System.in);
-
         int n = s.nextInt();
+
         while (n-- > 0)
         {
             int operation = s.nextInt();
             int number    = s.nextInt();
             System.out.println(Utils.PerformOperation(operation, number));
         }
-        s.close();
+        if (s != null)
+        {
+            s.close();
+        }
     }
 }
