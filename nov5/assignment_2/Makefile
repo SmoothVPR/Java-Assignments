@@ -43,6 +43,6 @@ $(TESTOBJS):
 	$(JC) $(TESTFLAGS) $(TESTS) -d $(OBJ)
 
 clean:
-	rm -fr $(shell find . -name "*.class")
+	rm -fr $(shell find . -name "**.class")
 	rm -f  $(MANIFEST)
 	rm -f  $(PROJECT).jar
