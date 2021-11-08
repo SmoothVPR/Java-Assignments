@@ -4,9 +4,9 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.math.BigDecimal;
+import java.sql.SQLException;
 
-public static class Singleton
+public class Singleton
 {
     private static Singleton instance = null;
     private static Connection conn = null;
@@ -29,21 +29,32 @@ public static class Singleton
         return instance;
     }
 
-    public static Connection getConnection(String database)
+    public Connection getConnection()
     {
         // First check
-        if (connection == null)
+        if (conn == null)
         {
             synchronized (Singleton.class)
             {
                 // Second check
-                if (connection == null)
+                if (conn == null)
                 {
-                    connection = new Singleton();
+                    try
+                    {
+                        String host     = "jdbc:derby://localhost:1527/dbname";
+                        String username = "username";
+                        String password = "password";
+                        conn = DriverManager.getConnection(host, username, password);
+                    }
+                    catch (SQLException sqle)
+                    {
+                        sqle.printStackTrace();
+                        System.err.println("SQL database connection could not be made.");
+                    }
                 }
             }
         }
 
-        return connection;
+        return conn;
     }
 }

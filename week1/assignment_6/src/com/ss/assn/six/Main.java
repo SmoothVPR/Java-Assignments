@@ -9,24 +9,18 @@ package com.ss.assn.six;
  *    Given a list of integers, return a list where each integer is multiplied by 2.
 **/
 
-import java.util.ArrayList;
-import java.util.List;
+import java.sql.Connection;
 
 public class Main
 {
+    static Connection conn = null;
+
     public static void main(String[] args)
     {
-        List<String> arr = new ArrayList<String>(){{ add("ax");
-                                                     add("bb");
-                                                     add("xbxbxc");
-                                                     add("cx"); }};
+        System.out.println("Getting Connection...");
+        conn = Singleton.getInstance().getConnection();
 
-        System.out.println("Original:");
-        arr.forEach(x -> System.out.print(x + " "));
-        System.out.println("\n");
+        System.out.println("Connection " + (conn != null ? "" : "not") + " made!");
 
-        System.out.println("Scalar multiple of 2:");
-        Utils.removeAllX(arr).forEach(x -> System.out.print(x + " "));
-        System.out.println("\n");
     }
 }
