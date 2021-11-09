@@ -215,7 +215,8 @@ public class UtilsTest
         assertEquals(2, Utils.parseSpecialStrFormat(strings).size()); // { "and", "are" };
     }
 
-    public void parseSpecialStrFormatNo3LetterA()
+    @Test
+    public void parseSpecialStrFormatNo3LetterWithoutA()
     {
         List<String> strings = new ArrayList<String>(); // { "how", "pop", "men", "top" };
         strings.add("how");
@@ -226,6 +227,7 @@ public class UtilsTest
         assertEquals(0, Utils.parseSpecialStrFormat(strings).size());
     }
 
+    @Test
     public void parseSpecialStrFormat3LetterWithoutA()
     {
         List<String> strings = new ArrayList<String>(); // { "how", "many", "men", "women", "there" };
@@ -236,6 +238,6 @@ public class UtilsTest
         strings.add("there");
 
         List<String> res = new ArrayList<String>();
-        assertEquals(strings.size(), res.size());
+        assertEquals(0, Utils.parseSpecialStrFormat(strings).size());
     }
 }
